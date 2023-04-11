@@ -35,3 +35,7 @@ header, footer {
     border-top: 2px, darkblue;
     margin: 10px;
 }
+
+.container {
+    justify-content: space-between;
+}
