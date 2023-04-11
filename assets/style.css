@@ -8,20 +8,30 @@ header, footer {
     text-indent: 65%;
 }
 
+#generate {
+    background-color: rgb(44, 114, 160);
+    color: beige;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin: 2px;
+}
+
+#generate:hover {
+    background-color: rgb(175, 196, 210);
+}
+
 .btn {
     display: block;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin: 2px;
 }
 
-
-#sidebar {
-    flex-direction: column;
-    display: flex;
+.btn:hover {
+    background-color: darkseagreen;
 }
 
-#easySearch{
-    border: 20px, darkblue;
-    margin: 2%;
-}
-.wrapper {
-    justify-content: space-between;
+#easySearch {
+    border-top: 2px, darkblue;
+    margin: 10px;
 }
