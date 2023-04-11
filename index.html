@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<header><h1 id="header">Weather Dashboard</h1></header>
+<header>
+    <h1 id="header">Weather Dashboard</h1>
+</header>
+
 <body>
-    <aside id="sidebar">
-        <form>
-            <h2>Search for a City</h2>
-            <input type="search" id="mySearch" placeholder="Search a city">
-        </form>
-        <button class="btn" id="generate">Search</button>
-<section id="easySearch">
-        <button class="btn" id="Seattle">Seattle</button>
-        <button class="btn" id="Atlanta">Atlanta</button>
-        <button class="btn" id="Denver">Denver</button>
-        <button class="btn" id="San Francisco">San Francisco</button>
-        <button class="btn" id="Orlando">Orlando</button>
-        <button class="btn" id="New York">New York</button>
-        <button class="btn" id="Chicago">Chicago</button>
-</section>
-    </aside>
+    <div>
+        <aside id="sidebar">
+            <form>
+                <h2>Search for a City</h2>
+                <input type="search" id="mySearch" placeholder="Search a city">
+            </form>
+            <button class="btn" id="generate">Search</button>
+            <section id="easySearch">
+                <button class="btn" id="Seattle">Seattle</button>
+                <button class="btn" id="Atlanta">Atlanta</button>
+                <button class="btn" id="Denver">Denver</button>
+                <button class="btn" id="San Francisco">San Francisco</button>
+                <button class="btn" id="Orlando">Orlando</button>
+                <button class="btn" id="New York">New York</button>
+                <button class="btn" id="Chicago">Chicago</button>
+            </section>
+        </aside>
 
-<section class="wrapper">
-<section class="container">Weather Displayed Here(placeholder text)</section>
-<section class="container">5-Day Forecast</section>
+        <section class="wrapper">
 
-</section>
+            <section class="container">Weather Displayed Here(placeholder text)</section>
+            <section id="forecast" class="container">
 
-<script src="./assets/script.js"></script>
+            </section>
+
+        </section>
+    </div>
+
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>

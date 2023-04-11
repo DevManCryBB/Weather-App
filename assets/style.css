@@ -8,6 +8,16 @@ header, footer {
     text-indent: 65%;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
 #generate {
     background-color: rgb(44, 114, 160);
     color: beige;
