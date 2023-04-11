@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(139, 205, 247);
+}
+
+header, footer {
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    color: thistle;
+    text-indent: 65%;
+}
+
+.btn {
+    display: block;
+}
+
+
+#sidebar {
+    flex-direction: column;
+    display: flex;
+}
+
+#easySearch{
+    border: 20px, darkblue;
+    margin: 2%;
+}
+.wrapper {
+    justify-content: space-between;
+}
