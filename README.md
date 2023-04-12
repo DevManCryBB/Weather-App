@@ -13,6 +13,9 @@ Secondarily, the user may find their city listed in the already existing buttons
 
 ![Page with Seattle 5 Day Forecast Displayed](./assets/images/Screen%20Shot%202023-04-11%20at%2010.03.52%20PM.png)
 
+Link to Deployed Site:
+https://devmancrybb.github.io/sixth-challenge/
+
 ## Credits
 
 openweathermap.org
