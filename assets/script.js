@@ -44,3 +44,13 @@ function fiveDay() {
       console.log(data);
     });
 }
+
+const btn = document.querySelectorAll(".btn")
+for (let i = 0; i < btn.length; i++ ){
+  btn[i].addEventListener("click", function(event){
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    city = btn[i].value
+    searchField()
+  })
+}
