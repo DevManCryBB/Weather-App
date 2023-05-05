@@ -16,9 +16,11 @@ function searchField() {
       return response.json();
     })
     .then(function (data) {
-      for (let i = 0; i < data.list; i++)
+      document.getElementById("weather").innerHTML = ""
+      console.log(data)
       var weatherCard= `
-      <h1>Temp: ${data.list.main.temp}</h1>
+      <h1>Today's Weather</h1>
+      <h1>Temp: ${data.main.temp}</h1>
       `;
       document.getElementById("weather").innerHTML += weatherCard
       console.log(data);
@@ -27,6 +29,7 @@ function searchField() {
 }
 
 function fiveDay() {
+  document.getElementById("forecast").innerHTML = "";
   var queryURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`;
   fetch(queryURL)
     .then(function (response) {
@@ -47,9 +50,7 @@ function fiveDay() {
 
 const btn = document.querySelectorAll(".btn")
 for (let i = 0; i < btn.length; i++ ){
-  btn[i].addEventListener("click", function(event){
-    event.preventDefault();
-    event.stopImmediatePropagation();
+  btn[i].addEventListener("click", function(){
     city = btn[i].value
     searchField()
   })
