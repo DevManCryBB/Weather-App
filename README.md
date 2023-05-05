@@ -14,7 +14,7 @@ Secondarily, the user may find their city listed in the already existing buttons
 ![Page with Seattle 5 Day Forecast Displayed](./assets/images/Button%20Select.png)
 
 Link to Deployed Site:
-https://devmancrybb.github.io/sixth-challenge/
+https://devmancrybb.github.io/Weather-App/
 
 ## Credits
 
