@@ -19,5 +19,6 @@ https://devmancrybb.github.io/sixth-challenge/
 ## Credits
 
 Anna Riley GitHub Link (https://github.com/mercurybased)
+
 openweathermap.org
 
